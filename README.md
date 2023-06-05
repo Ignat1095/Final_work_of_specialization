@@ -216,6 +216,7 @@
     LEFT JOIN young_animal ya ON ya.Name = hm.Name
     LEFT JOIN home_animals ha ON ha.Id = hm.Genus_id;
     ```
+    ![sql](https://github.com/Ignat1095/Final_work_of_specialization/blob/main/images/sql.PNG)
 13. Создать класс с Инкапсуляцией методов и наследованием по диаграмме.
 14. Написать программу, имитирующую работу реестра домашних животных. В программе должен быть реализован следующий функционал:
 * Завести новое животное
